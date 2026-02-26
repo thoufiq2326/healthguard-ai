@@ -4,7 +4,7 @@ import {
   ShieldAlert, Moon, Sun, Activity, 
   FileText, Database, Brain, Globe, CheckCircle, 
   Link as LinkIcon, ChevronRight, Camera,
-  ChartLine
+  LineChart // <-- Fixed import
 } from 'lucide-react';
 import {
   Chart as ChartJS,
@@ -592,7 +592,7 @@ export default function App() {
             <div className="backdrop-blur-2xl bg-white/60 dark:bg-slate-900/50 border border-white/40 dark:border-white/10 p-6 md:p-8 rounded-[2rem] shadow-xl flex-grow">
               <div className="flex justify-between items-center mb-6">
                 <h3 className="text-xs font-black uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 flex items-center gap-2">
-                  <ChartLine className="w-4 h-4" /> TRD Telemetry
+                  <LineChart className="w-4 h-4" /> TRD Telemetry {/* <-- Fixed Icon Call */}
                 </h3>
                 <span className="px-2 py-0.5 bg-sky-500/10 text-sky-600 dark:text-sky-400 rounded text-[9px] font-bold uppercase border border-sky-500/20">v1.2 SLA</span>
               </div>
