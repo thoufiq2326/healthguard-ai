@@ -24,7 +24,7 @@ ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, T
 // --- Configuration & Constants ---
 // Note: For local development with Vite, use: import.meta.env.VITE_GROQ_API_KEY
 // For this environment, we use a constant.
-const API_KEY = "YOUR_GROQ_API_KEY_HERE"; 
+const API_KEY = "import.meta.env.VITE_GROQ_API_KEY"; 
 const MODEL_NAME = "llama-3.3-70b-versatile"; 
 
 const SYSTEM_PROMPT = `You are HealthGuard AI, an elite clinical misinformation detection platform. 
